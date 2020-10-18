@@ -1,8 +1,6 @@
 package main
+import "fmt"
 
-import (
-	"fmt"
-)
 func Fibonacci(number int){
      
     var t1 int =0
@@ -25,9 +23,11 @@ func Fibonacci(number int){
         t2 = next_term
         
         fmt.Print(next_term)
-        }
+    }
 }
+
 func main() {
+    
     number:=12
     Fibonacci(number)
 }
