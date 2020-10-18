@@ -21,13 +21,12 @@ func Fibonacci(number int){
         next_term = t1 + t2
         t1 = t2
         t2 = next_term
-        
+ 
         fmt.Print(next_term)
     }
 }
-
-func main() {
-    
+func main(){
+ 
     number:=12
     Fibonacci(number)
 }
