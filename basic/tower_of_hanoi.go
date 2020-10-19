@@ -14,7 +14,7 @@ func hanoi(num int, from_rod, to_rod, extra_rod byte){
           
           hanoi(num-1, from_rod, extra_rod, to_rod)
 
-          fmt.Print("move disc %d from rod %c to rod %c", from_rod, to_rod)
+          fmt.Print("move disc %d from rod to rod ", from_rod, to_rod)
 
           hanoi(num-1, extra_rod, to_rod, from_rod)
 
