@@ -3,8 +3,8 @@ import "fmt"
 
 func bellNumber(n int)int{
     
-    
     s := 100
+    
     var bell =  make([s+1][s+1] int)
     
     bell[0][0] = 1
