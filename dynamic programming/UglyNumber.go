@@ -1,3 +1,7 @@
+// Code for Ugly Numbers (Numbers with prime factors 2,3 and 5)
+// Ref: https://www.geeksforgeeks.org/ugly-numbers/
+// https://leetcode.com/problems/ugly-number/
+
 package main
 import "fmt"
 
