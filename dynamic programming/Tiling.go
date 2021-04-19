@@ -3,7 +3,7 @@ import "fmt"
 
 const MOD int = 1000000007
 
-func Multiply(a[][2] uint,  b[][2] uint){
+func Multiply(a[10][2] uint,  b[10][2] uint){
     
     var x uint  = a[0][0]*b[0][0] + a[0][1]*b[1][0]
     var y uint  = a[0][0]*b[0][1] + a[0][1]*b[1][1]
@@ -17,13 +17,13 @@ func Multiply(a[][2] uint,  b[][2] uint){
     
 }
 
-func Power(c[][2] uint, n uint){
+func Power(c[10][2] uint, n uint){
     
     if(n==1 || n==0){
         
         return 
         
-    var F[2][2] uint
+    var F[10][2] uint
         
     F[0][0] = 1
     F[0][1] = 1
@@ -42,7 +42,7 @@ func Power(c[][2] uint, n uint){
 func main(){
     
     var test int 
-    var c[2][2] uint 
+    var c[10][2] uint 
     var n uint
     
     fmt.Scanf("%d",&test)
@@ -65,4 +65,3 @@ func main(){
 	    }
     }
 }
-
