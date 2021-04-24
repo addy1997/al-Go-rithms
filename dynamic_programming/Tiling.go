@@ -1,4 +1,5 @@
 package main
+
 import "fmt"
 
 const MOD int = 1000000007
