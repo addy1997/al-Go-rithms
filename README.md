@@ -10,12 +10,8 @@
 
 ## Overview
 
+This repository has a variety of algorithms based on strings, arrays, conversions, dynamic programming implemented for reference purpose. Although there are numerous resources for Go, this repository serves the purpose of most go-to resource for any beginner willing to dive deeper in the world of Golang. 
 
-
-
-## Usage 
-
-
-
+Our motivation behind starting this project is to maintain a simple and a clean codebase to make the process of learning Go easier and fun.
 
 ## Folder structure
