@@ -21,3 +21,7 @@ All contributions are welcome. We strongly encourage new contributors to refer t
 ## Topics 
 
 Almost every month we are adding new interesting topics to keep the repository updated. The list of all the topics can be found here [TOPICS.txt](https://github.com/addy1997/al-Go-rithms/blob/main/TOPICS.txt)
+
+## Updates
+
+A new branch by the name of "add-deprecated-codes" has been added to move codes with deprecated functions, packages. 
