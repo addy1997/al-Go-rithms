@@ -1,0 +1,49 @@
+I. Dynamic programming
+
+1. max product subarray 
+2. knapsack algorithm
+3. tiling number
+4. ugly number
+5. bellNumber
+
+II. Miscellaneous
+
+1. perfect digital number
+
+III. Strings
+
+1. word match 
+
+IV. Basic
+
+1. catalan number
+2. length of last word
+3. variadic functions
+4. recursive factorial
+5. prime number
+6. palindrome 
+7. average of a number
+8. inverse factorial
+9. fibonacci
+10. armstrong
+11. dudeney
+12. valid parenthesis
+13. tower of hanoi
+14. closure
+15. swaping
+16. sinewaves
+
+
+V. Conversions
+1. binary to hex
+2. binary to decimal
+3. binary to octal
+4. octal to dec
+5. octal to binary
+6. decimal to octal
+7. decimal to binary
+8. decimal to hex
+9. hex to binary
+10. hex to decimal
+11. int to string
+12. decimal to binary recursivex
