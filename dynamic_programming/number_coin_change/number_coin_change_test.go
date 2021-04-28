@@ -5,6 +5,10 @@ import (
 	"testing"
 )
 
+/*
+Test program to validate output of getChanges function against number of possible input
+*/
+
 func TestCoinChange(t *testing.T) {
 	cases := []struct {
 		coins []int
