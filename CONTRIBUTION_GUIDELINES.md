@@ -99,3 +99,8 @@ Feature requests are welcome. But take a moment to find out whether your idea
 fits with the scope and aims of the project. It's up to *you* to make a strong
 case to convince the project's developers of the merits of this feature. Please
 provide as much detail and context as possible.
+
+
+## Naming Conventions
+
+Please refer to [this](https://betterprogramming.pub/naming-conventions-in-go-short-but-descriptive-1fa7c6d2f32a) blog for naming the files and folders.
