@@ -2,7 +2,17 @@ package main
 
 import "fmt"
 
-// rootVIII 0 ms, faster than 100.00% of Go online submissions
+/*
+0ms faster than 100.00% of Go online submissions
+
+LEETCODE: https://leetcode.com/problems/length-of-last-word/
+
+Given a string s consists of some words separated
+by spaces, return the length of the last word in
+the string. If the last word does not exist, return 0.
+A word is a maximal substring consisting of non-space
+characters only.
+*/
 
 func lengthOfLastWord(s string) int {
 	var wordlen int = 0
