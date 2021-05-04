@@ -18,12 +18,14 @@ func toRadians(degrees float64) float64 {
 	return degrees * (math.Pi / 180)
 }
 
+// drawSine iterativelly draws a sinewave with two
+// complete cycles/alternations (360 * 2 == 720)
 func drawSine(img draw.Image) {
 	cyan := color.RGBA{100, 200, 200, 0xff}
-	var x float64
-	var y float64
+	var x, y float64
 	for i := 0; i <= 720; i++ {
 		x = float64(i)
+		// must convert degrees to radians:
 		y = math.Sin(toRadians(x)) * 100
 		y *= -1
 		fmt.Printf("%f, %f\n", x, y)
@@ -31,6 +33,7 @@ func drawSine(img draw.Image) {
 	}
 }
 
+// drawRecursiveSine recursively draws a sine wave.
 func drawRecursiveSine(img draw.Image, x float64) {
 	if x <= 720 {
 		y := math.Sin(toRadians(x)) * 50
@@ -57,6 +60,7 @@ func writePNG(img draw.Image, path string) {
 func main() {
 	img := image.NewRGBA(image.Rect(-50, -200, 800, 200))
 	draw.Draw(img, img.Bounds(), &image.Uniform{color.White}, image.Point{}, draw.Src)
+	// draw two sine waves and superimpose them into a single image:
 	drawSine(img)
 	drawRecursiveSine(img, 0)
 	writePNG(img, "composition.png")
