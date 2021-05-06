@@ -4,7 +4,6 @@ import (
 	"reflect"
 	"testing"
 )
-
 func TestLCS(t *testing.T) {
 	cases := []struct {
 		s1 string
